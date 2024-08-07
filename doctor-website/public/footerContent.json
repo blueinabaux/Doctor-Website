@@ -1,0 +1,56 @@
+{
+  "footer": {
+    "logo": {
+      "icon": "FaUserDoctor",
+      "size": 50,
+      "color": "white",
+      "text": "Dr.Mike"
+    },
+    "socialLinks": [
+      {
+        "icon": "AiFillInstagram",
+        "size": 23,
+        "color": "#e5efff",
+        "url": "https://www.instagram.com"
+      },
+      {
+        "icon": "FaXTwitter",
+        "size": 23,
+        "color": "#e5efff",
+        "url": "https://www.twitter.com"
+      },
+      {
+        "icon": "BiLogoGmail",
+        "size": 23,
+        "color": "#e5efff",
+        "url": "mailto:example@gmail.com"
+      }
+    ],
+    "usefulLinks": [
+      {
+        "title": "Useful Links",
+        "links": [
+          "About",
+          "Contact",
+          "Useful Links"
+        ]
+      },
+      {
+        "title": "Useful Links",
+        "links": [
+          "About",
+          "Contact",
+          "Useful Links"
+        ]
+      },
+      {
+        "title": "Useful Links",
+        "links": [
+          "About",
+          "Contact",
+          "Useful Links"
+        ]
+      }
+    ]
+  }
+}
