@@ -34,8 +34,17 @@ const ContactPage = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="con-right h-full w-[50%] bg-violet-500">
-
+                        <div className="con-right h-full w-[50%] bg--500 flex justify-center items-center">
+                            <div className="form h-[100%] w-[60%] bg--300 flex flex-col justify-start items-center gap-[1vw]">
+                                <h1 className="infoTitle text-[2.5vw]">Information</h1>
+                                <div className="inputContainer h-[30vh] w-full bg--400 flex flex-col justify-evenly items-center">
+                                    <input className="h-[25%] w-[90%] rounded-[0.8vw] px-[1.5vw] bg-[#2E63B2]" type="text" placeholder="Full Name" />
+                                    <input className="h-[25%] w-[90%] rounded-[0.8vw] px-[1.5vw] bg-[#2E63B2]" type="text" placeholder="Email" />
+                                </div>
+                                <div className="inputContainer h-[10vh] w-full bg--400 flex flex-col justify-evenly items-center">
+                                    <button className="text-[1vw] h-[6vh] w-[40%] bg-white rounded-full">Submit</button>
+                                </div>
+                            </div>
                         </div>
                         
                     </div>

@@ -10,25 +10,37 @@ const ChooseMePage = () => {
     const cardRefs = useRef([]);
 
     const handleMouseEnter = (index) => {
-        gsap.to(cardRefs.current[index].querySelector(".serviceCard"), {
+        gsap.to(cardRefs.current[index], {
             backgroundColor: "#e5efff",
             color: "#2E63B2",
             duration: 0.3
         });
         gsap.to(cardRefs.current[index].querySelector(".serviceIcon div"), {
+            y:"-2vh",
+            scale:1.1,
+            color: "#0D4496",
+            duration: 0.3
+        });
+        gsap.to(cardRefs.current[index].querySelector(".serviceName h1"), {
             color: "#0D4496",
             duration: 0.3
         });
     };
-
+    
     const handleMouseLeave = (index) => {
-        gsap.to(cardRefs.current[index].querySelector(".serviceCard"), {
+        gsap.to(cardRefs.current[index], {
             backgroundColor: "#2E63B2",
             color: "white",
             duration: 0.3
         });
         gsap.to(cardRefs.current[index].querySelector(".serviceIcon div"), {
+            y:"0vh",
+            scale:1,
             color: "white",
+            duration: 0.3
+        });
+        gsap.to(cardRefs.current[index].querySelector(".serviceName h1"), {
+            color: "#e5efff",
             duration: 0.3
         });
     };

@@ -44,7 +44,7 @@ const Footer = () => {
                         </div>
                         <div className="links bg--500 h-[20%] w-full flex justify-center items-start py-[0vw] gap-[1vw]">
                             {footerData.socialLinks.map((link, index) => (
-                                <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
+                                <a key={index} href={link.url} >
                                     {renderIcon(link.icon)}
                                 </a>
                             ))}
