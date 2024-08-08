@@ -31,7 +31,6 @@ const Footer = () => {
         }
     };
 
-    console.log(footerData);
 
     return footerData ? (
         <>
@@ -51,13 +50,13 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="foot-right h-[100%] w-[60%] bg--500 flex justify-between items-center">
+                <div className="foot-right h-[100%] w-[60%] bg--500 flex justify-end items-center">
                     {footerData.usefulLinks.map((section, index) => (
-                        <div key={index} className="useful h-[40%] w-[30%] bg--50">
-                            <div className="topLink h-[20%] w-full bg--400 flex justify-start items-center">
+                        <div key={index} className="useful h-[40%] w-[35%] bg--300 flex flex-col justify-center items-center">
+                            <div className="topLink h-[40%] w-full bg--400 flex justify-start items-center">
                                 <h1 className="text-[2.5vw]">{section.title}</h1>
                             </div>
-                            <div className="allLinks h-[80%] w-full flex flex-col justify-start items-start">
+                            <div className="allLinks h-[60%] w-full flex flex-col justify-start items-start">
                                 {section.links.map((link, idx) => (
                                     <h2 key={idx} className="text-[1.3vw]">{link}</h2>
                                 ))}

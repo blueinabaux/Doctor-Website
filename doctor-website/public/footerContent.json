@@ -36,20 +36,12 @@
         ]
       },
       {
-        "title": "Useful Links",
-        "links": [
-          "About",
-          "Contact",
-          "Useful Links"
-        ]
-      },
-      {
-        "title": "Useful Links",
-        "links": [
-          "About",
-          "Contact",
-          "Useful Links"
-        ]
+        "title": "Patient Resources",
+      "links": [
+        "Patient Portal",
+        "Appointment Booking",
+        "FAQs"
+      ]
       }
     ]
   }

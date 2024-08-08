@@ -4,7 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.landingMain h1, .aboutTitle h1, option, .services-top h1, .choose-top h1, .faq-top h1, .question h1, .contact-top h1, .logoHead h1,.foot-right h1, .nav-left {
+body{
+  background-color: #0D4496;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+.landingMain h1, .aboutTitle h1, option, .services-top h1, .choose-top h1, .faq-top h1, .question h1, .contact-top h1, .logoHead h1,.foot-right h1, .navbar {
   font-family: "Bebas Neue", sans-serif;
   color: rgb(218, 230, 255);
 }

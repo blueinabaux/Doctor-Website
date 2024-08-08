@@ -68,18 +68,18 @@ const FaqPage = () => {
     const faqArr = [
         {
             id: 1,
-            ques: "What types of services does Dr. Mike Johnson offer?",
-            ans: "Dr. Mike Johnson provides comprehensive care in internal medicine, geriatrics, and cardiology. This includes routine check-ups, chronic disease management, specialized heart care, and age-related health services.",
+            ques: "What types of services does Dr. Mike Varshavski  offer?",
+            ans: "Dr. Mike Varshavski  provides comprehensive care in internal medicine, geriatrics, and cardiology. This includes routine check-ups, chronic disease management, specialized heart care, and age-related health services.",
         },
         {
             id: 2,
-            ques: "How can I schedule an appointment with Dr. Johnson?",
-            ans: "You can schedule an appointment by calling our office directly or using our online booking system. If you’re a new patient, please provide your medical history and insurance information beforehand.",
+            ques: "How can I schedule an appointment with Dr. Varshavski ?",
+            ans: "You can schedule an appointment by calling our office directly or using our online booking system. If you're a new patient, please provide your medical history and insurance information beforehand.",
         },
         {
             id: 3,
             ques: "What should I bring to my first appointment?",
-            ans: "Please bring a valid ID, your insurance card, and any relevant medical records or medications you’re currently taking. If you have previous lab results or imaging, bring those as well.",
+            ans: "Please bring a valid ID, your insurance card, and any relevant medical records or medications you're currently taking. If you have previous lab results or imaging, bring those as well.",
         },
         {
             id: 4,
